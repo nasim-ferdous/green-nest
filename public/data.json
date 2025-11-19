@@ -1,0 +1,98 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 650,
+    "rating": 4.8,
+    "description": "A hardy indoor plant known for its air-purifying qualities and low maintenance needs. Perfect for bedrooms and offices.",
+    "image": "https://i.ibb.co.com/3nk3sr6/snake-plants.jpg",
+    "availableStock": 25,
+    "careLevel": "Easy",
+    "providerName": "GreenLeaf Nursery"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Peace Lily",
+    "category": "Flowering Plant",
+    "price": 720,
+    "rating": 4.6,
+    "description": "An elegant plant with white flowers that thrive in indirect sunlight. Great for improving indoor air quality.",
+    "image": "https://i.ibb.co.com/rK1XtNpL/peace-lily.jpg",
+    "availableStock": 18,
+    "careLevel": "Medium",
+    "providerName": "Urban Garden BD"
+  },
+  {
+    "plantId": 3,
+    "plantName": "Aloe Vera",
+    "category": "Succulent",
+    "price": 550,
+    "rating": 4.7,
+    "description": "A popular succulent known for its medicinal uses and easy care. Prefers bright, indirect sunlight.",
+    "image": "https://i.ibb.co.com/BVxd5Nq5/aloe-vera.jpg",
+    "availableStock": 30,
+    "careLevel": "Easy",
+    "providerName": "Nature Touch"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Money Plant",
+    "category": "Climbing Plant",
+    "price": 480,
+    "rating": 4.5,
+    "description": "A lush green indoor vine said to bring prosperity and good luck. Grows well in water or soil.",
+    "image": "https://i.ibb.co.com/7NL3CXVZ/Money-plant.webp",
+    "availableStock": 40,
+    "careLevel": "Easy",
+    "providerName": "Eco Garden"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Areca Palm",
+    "category": "Air Purifier",
+    "price": 950,
+    "rating": 4.9,
+    "description": "A beautiful indoor palm that adds a tropical vibe while naturally purifying air. Prefers bright light.",
+    "image": "https://i.ibb.co.com/JRKGmrhj/areca-palm.png",
+    "availableStock": 15,
+    "careLevel": "Medium",
+    "providerName": "Leaf & Bloom"
+  },
+  {
+    "plantId": 6,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 600,
+    "rating": 4.8,
+    "description": "A fast-growing plant that produces baby spiderettes. Known for its ability to remove indoor toxins.",
+    "image": "https://i.ibb.co.com/G4rH236D/spider-tree.webp",
+    "availableStock": 28,
+    "careLevel": "Easy",
+    "providerName": "GreenScape"
+  },
+  {
+    "plantId": 7,
+    "plantName": "ZZ Plant",
+    "category": "Low Light Plant",
+    "price": 800,
+    "rating": 4.7,
+    "description": "A glossy-leaved plant that tolerates low light and neglect. Ideal for busy plant lovers.",
+    "image": "https://i.ibb.co.com/8LZqYZ8C/zz-plant.webp",
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "providerName": "Nature Nest"
+  },
+  {
+    "plantId": 8,
+    "plantName": "Rubber Plant",
+    "category": "Decorative Plant",
+    "price": 880,
+    "rating": 4.6,
+    "description": "A stylish plant with thick, glossy leaves that enhances modern interiors. Prefers bright, indirect light.",
+    "image": "https://i.ibb.co.com/LDc3M53g/rubbertree.webp",
+    "availableStock": 22,
+    "careLevel": "Medium",
+    "providerName": "EcoLeaf Garden"
+  }
+]
