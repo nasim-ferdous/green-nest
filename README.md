@@ -1,25 +1,90 @@
-# GreenNest
+🌿 GreenNest – Indoor Plant Care & Shopping Platform
 
-**GreenNest** is an elegant, single-page web application built for plant lovers who want to nurture and decorate their homes with healthy indoor plants.  
-The platform allows users to explore plant care guides, buy plants, and book expert consultations — ensuring a greener and healthier living space during any season.
+A modern, elegant platform for plant lovers who want to grow, decorate & nurture their indoor plants.
 
-## Core Features & Functional Requirements
+<p align="center"> <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/Backend-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Styling-TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" /> <img src="https://img.shields.io/badge/Build-Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=white" /> </p>
 
-### Layout Structure
+🌐 Live Demo
 
-**Navbar**
+👉 Live Site: (https://green-nest-a-9.netlify.app/)
 
-- Logo: `GreenNest`
-- Navigation Links: _Home_, _Plants_, _My Profile_
-- Conditional Rendering:
-  - Logged in → shows user avatar + dropdown (displayName + Logout)
-  - Logged out → shows _Login_ and _Register_ buttons
+📖 Overview
 
-**Footer**
+GreenNest is a single-page, feature-rich indoor plant platform where users can explore indoor plants, read care tips, book expert consultations, and enjoy a seamless shopping-like experience.
 
-- Quick Links: About | Contact | Privacy Policy
-- Social Media: Instagram | Facebook | Pinterest
-- © 2025 GreenNest. All rights reserved.
+Built for nature lovers who want a healthier home environment, anytime — any season. 🍃
+
+✨ Features at a Glance
+
+🌱 1. Dynamic Home Page
+
+Swiper-based hero slider with nature-inspired visuals.
+
+Top-rated indoor plants with rating, price & details link.
+
+Plant care tips (watering, sunlight, fertilizing).
+
+“Meet Our Green Experts” section.
+
+Highlighted “Plant of the Week”.
+---
+🪴 2. Plant Details Page
+
+Protected Route (requires login).
+
+Shows full plant information:
+
+Image
+
+Name
+
+Description
+
+Rating
+
+Price
+
+Stock
+
+Consultation Form included:
+
+Name
+
+Email
+
+Message
+
+On submit → toast success + form reset.
+---
+🔐 3. Authentication System
+
+Powered by Firebase Auth:
+
+Login Page
+
+Email + Password login
+
+Forget password
+
+Google Sign-In
+
+Redirects to intended route
+
+Invalid credentials → toast error
+
+Signup Page
+
+Name, Email, PhotoURL, Password
+
+Password validation:
+
+6+ chars
+
+One uppercase + one lowercase letter
+
+Google Sign-In option
+
+Redirects to home after registration
 
 Home Page Sections
 
@@ -87,16 +152,76 @@ Login link
 
 Google Sign-In option
 
-Tech Stack & Dependencies
-Category Tools
-Vite
+---
+🛠️ Tech Stack
+
+🎨 Frontend
+
 React
-React Router
+
+React Router DOM
+
 Tailwind CSS
+
 DaisyUI
+
 Swiper.js
+
 React Toastify
+
+Authentication
+
 Firebase Authentication
+
+⚙️ Build & Tools
+
+Vite
+
+GitHub
+
+ESLint
+---
+📦 Installation & Setup
+
+🔧 Clone the Repository
+git clone https://github.com/nasim-ferdous/green-nest
+cd GreenNest
+
+📥 Install Dependencies
+npm install
+
+🔑 Create .env File
+
+Add Firebase config:
+
+VITE_apiKey=your_key
+VITE_authDomain=your_domain
+VITE_projectId=your_id
+VITE_storageBucket=your_bucket
+VITE_messagingSenderId=your_sender
+VITE_appId=your_app_id
+
+▶️ Run the Project
+npm run dev
+---
+📂 Project Folder Structure
+GreenNest/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── context/
+│   ├── firebase/
+│   ├── assets/
+│   └── App.jsx
+│
+│── public/
+│── .env
+│── package.json
+│── tailwind.config.js
+│── README.md
+
+
 
 Credits
 
