@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "specialization": "Indoor Plant Specialist",
+    "image": "https://i.ibb.co.com/v65dw5sQ/Dr-Ayesha-Rahman.webp"
+  },
+  {
+    "id": 2,
+    "name": "Rafiul Hasan",
+    "specialization": "Soil & Fertilizer Expert",
+    "image": "https://i.ibb.co.com/bjMvBzWM/rafikul-hasan.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sabbir Ahmed",
+    "specialization": "Hydroponic Plant Specialist",
+    "image": "https://i.ibb.co.com/273F6pYm/sabbir-ahmed.webp"
+  }
+]

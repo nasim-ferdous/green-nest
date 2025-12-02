@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Watering Tips",
+    "icon": "💧",
+    "description": "Water your plants deeply but less often. Allow the top inch of soil to dry out before watering again to prevent root rot."
+  },
+  {
+    "id": 2,
+    "title": "Sunlight Tips",
+    "icon": "☀️",
+    "description": "Most indoor plants prefer bright, indirect sunlight. Keep them near a window but avoid direct harsh rays."
+  },
+  {
+    "id": 3,
+    "title": "Fertilizing Tips",
+    "icon": "🌿",
+    "description": "Use a balanced liquid fertilizer every 4–6 weeks during the growing season to encourage healthy growth."
+  }
+]
